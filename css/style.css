@@ -1,0 +1,62 @@
+@import url("components/button.css");
+@import url("components/footer.css");
+@import url("components/screen.css");
+
+:root {
+  --background: #3C354F;
+  --font: #F0DC80;
+  --screen: #3C354F;
+  --calculator: #3C354F;
+  --btn: #F0DC80;
+  --btn-hover: #EF5F30;
+  --btn-active: #EF5F30;
+  --btn-red: #52B695;
+  --btn-red-hover: #F0DC80;
+  --btn-red-active: #F0DC80;
+  --btn-blue: #EF5F30;
+  --btn-blue-hover: #F0DC80;
+  --btn-blue-active: #F0DC80;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background);
+  color: var(--font);
+  font-family: 'Roboto Mono', monospace;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 68vh;
+  min-height: 500px;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.calculator {
+  width: 400px;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: var(--calculator);
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
