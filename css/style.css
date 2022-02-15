@@ -8,14 +8,14 @@
   --screen: #3C354F;
   --calculator: #3C354F;
   --btn: #F0DC80;
-  --btn-hover: #EF5F30;
-  --btn-active: #EF5F30;
-  --btn-red: #52B695;
-  --btn-red-hover: #F0DC80;
-  --btn-red-active: #F0DC80;
+  --btn-hover: #7EBED8;
+  --btn-active: #6baac4;
+  --btn-red: #5AC9B0;
+  --btn-red-hover: #52B695;
+  --btn-red-active: #3fa181;
   --btn-blue: #EF5F30;
-  --btn-blue-hover: #F0DC80;
-  --btn-blue-active: #F0DC80;
+  --btn-blue-hover: #DC462B;
+  --btn-blue-active: #b62b12;
 }
 
 *,
