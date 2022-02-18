@@ -34,7 +34,7 @@ html {
 body {
   margin: 0;
   background-color: var(--background);
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Acme', sans-serif;
   color: var(--font);
 }
 

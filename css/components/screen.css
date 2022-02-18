@@ -1,20 +1,18 @@
 .screen {
   padding: 10px 20px;
-  /* border: 2px var(--border) solid; */
-  border-radius: 5px;
   margin-bottom: 20px;
   background-color: var(--screen);
   text-align: right;
-  word-wrap: break-word;
-  word-break: break-all;
+  /* word-wrap: break-word;
+  word-break: break-all; */
 }
 
 .screen-last {
   min-height: 32px;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .screen-current {
   min-height: 64px;
-  font-size: 40px;
+  font-size: 48px;
 }

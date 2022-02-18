@@ -12,7 +12,7 @@ button {
   color: #3C354F;
   border: none;
   font-family: inherit;
-  font-size: inherit;
+  font-size: 24px;
   cursor: pointer;
   outline: none;
 }
@@ -24,7 +24,6 @@ button {
   border: 0;
   border-radius: 50%;
   background-color: var(--btn);
-  font-size: 20px;
 }
 
 .btn:hover {
@@ -39,7 +38,7 @@ button {
 
 .btn-clear {
   color: #3C354F;
-  border-radius: 20px;
+  border-radius: 16px;
   background-color: var(--btn-red);
 }
 
@@ -55,7 +54,7 @@ button {
 
 .btn-delete {
   color: #3C354F;
-  border-radius: 20px;
+  border-radius: 16px;
   background-color: var(--btn-blue);
 }
 
