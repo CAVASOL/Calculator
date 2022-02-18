@@ -5,8 +5,8 @@
 }
 
 button {
+  color: black;
   border: none;
-  /* color: inherit; */
   font-family: inherit;
   font-size: inherit;
   cursor: pointer;
