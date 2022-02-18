@@ -10,12 +10,12 @@
   --btn: #F0DC80;
   --btn-hover: #7EBED8;
   --btn-active: #6baac4;
-  --btn-red: #5AC9B0;
-  --btn-red-hover: #52B695;
-  --btn-red-active: #3fa181;
-  --btn-blue: #EF5F30;
-  --btn-blue-hover: #DC462B;
-  --btn-blue-active: #b62b12;
+  --btn-clear: #5AC9B0;
+  --btn-clear-hover: #52B695;
+  --btn-claer-active: #3fa181;
+  --btn-delete: #EF5F30;
+  --btn-delete-hover: #DC462B;
+  --btn-delete-active: #b62b12;
 }
 
 *,

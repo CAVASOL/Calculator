@@ -37,33 +37,91 @@ button {
 }
 
 .btn-clear {
+  width: 150px;
+  height: 72px;
   color: #3C354F;
-  border-radius: 16px;
-  background-color: var(--btn-red);
+  border: 0;
+  background-color: var(--btn-clear);
+  position: relative;
 }
 
-.btn-clear:hover {
+.btn-clear:before {
+  content: "";
+  width: 150px;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
   color: #3C354F;
-  background-color: var(--btn-red-hover);
+  border-bottom: 20px solid var(--btn-clear);
+  border-left: 20px solid #3C354F;
+  border-right: 20px solid #3C354F;
 }
 
-.btn-clear:active {
+.btn-clear:after {
+  content: "";
+  width: 150px;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   color: #3C354F;
-  background-color: var(--btn-red-active);
+  border-top: 20px solid var(--btn-clear);
+  border-left: 20px solid #3C354F;
+  border-right: 20px solid #3C354F;
+}
+
+.btn-clear:before:after:hover {
+  color: #3C354F;
+  background-color: var(--btn-clear-hover);
+}
+
+.btn-clear:before:after:active {
+  color: #3C354F;
+  background-color: var(--btn-clear-active);
 }
 
 .btn-delete {
+  width: 150px;
+  height: 72px;
   color: #3C354F;
-  border-radius: 16px;
-  background-color: var(--btn-blue);
+  border: 0;
+  background-color: var(--btn-delete);
+  position: relative;
 }
 
-.btn-delete:hover {
+.btn-delete:before {
+  content: "";
+  width: 150px;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
   color: #3C354F;
-  background-color: var(--btn-blue-hover);
+  border-bottom: 20px solid var(--btn-delete);
+  border-left: 20px solid #3C354F;
+  border-right: 20px solid #3C354F;
 }
 
-.btn-delete:active {
+.btn-delete:after {
+  content: "";
+  width: 150px;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   color: #3C354F;
-  background-color: var(--btn-blue-active);
+  border-top: 20px solid var(--btn-delete);
+  border-left: 20px solid #3C354F;
+  border-right: 20px solid #3C354F;
+}
+
+.btn-delete:before:after:hover {
+  color: #3C354F;
+  background-color: var(--btn-delete-hover);
+}
+
+.btn-delete:before:after:active {
+  color: #3C354F;
+  background-color: var(--btn-delete-active);
 }
