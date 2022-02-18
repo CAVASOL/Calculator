@@ -1,7 +1,11 @@
-.buttons-grid {
+.buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+}
+
+.span-2 {
+  grid-column: span 2;
 }
 
 button {
@@ -33,34 +37,34 @@ button {
   background-color: var(--btn-active);
 }
 
-.btn-red {
+.btn-clear {
   color: #3C354F;
   border-radius: 20px;
   background-color: var(--btn-red);
 }
 
-.btn-red:hover {
+.btn-clear:hover {
   color: #3C354F;
   background-color: var(--btn-red-hover);
 }
 
-.btn-red:active {
+.btn-clear:active {
   color: #3C354F;
   background-color: var(--btn-red-active);
 }
 
-.btn-blue {
+.btn-delete {
   color: #3C354F;
   border-radius: 20px;
   background-color: var(--btn-blue);
 }
 
-.btn-blue:hover {
+.btn-delete:hover {
   color: #3C354F;
   background-color: var(--btn-blue-hover);
 }
 
-.btn-blue:active {
+.btn-delete:active {
   color: #3C354F;
   background-color: var(--btn-blue-active);
 }
