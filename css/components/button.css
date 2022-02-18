@@ -5,7 +5,7 @@
 }
 
 button {
-  color: black;
+  color: #3C354F;
   border: none;
   font-family: inherit;
   font-size: inherit;
@@ -14,6 +14,7 @@ button {
 }
 
 .btn {
+  color: #3C354F;
   padding: 20px;
   text-decoration: none;
   border: 0;
@@ -23,35 +24,43 @@ button {
 }
 
 .btn:hover {
+  color: #3C354F;
   background-color: var(--btn-hover);
 }
 
 .btn:active {
+  color: #3C354F;
   background-color: var(--btn-active);
 }
 
 .btn-red {
+  color: #3C354F;
   border-radius: 20px;
   background-color: var(--btn-red);
 }
 
 .btn-red:hover {
+  color: #3C354F;
   background-color: var(--btn-red-hover);
 }
 
 .btn-red:active {
+  color: #3C354F;
   background-color: var(--btn-red-active);
 }
 
 .btn-blue {
+  color: #3C354F;
   border-radius: 20px;
   background-color: var(--btn-blue);
 }
 
 .btn-blue:hover {
+  color: #3C354F;
   background-color: var(--btn-blue-hover);
 }
 
 .btn-blue:active {
+  color: #3C354F;
   background-color: var(--btn-blue-active);
 }

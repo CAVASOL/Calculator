@@ -34,8 +34,8 @@ html {
 body {
   margin: 0;
   background-color: var(--background);
-  color: black;
   font-family: 'Roboto Mono', monospace;
+  color: var(--font);
 }
 
 .main {
