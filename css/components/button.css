@@ -1,7 +1,7 @@
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+  grid-gap: 16px;
 }
 
 .span-2 {
@@ -22,6 +22,8 @@ button {
   padding: 20px;
   text-decoration: none;
   border: 0;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
   background-color: var(--btn);
 }
@@ -38,7 +40,7 @@ button {
 
 .btn-clear {
   width: 150px;
-  height: 72px;
+  height: 68px;
   color: #3C354F;
   border: 0;
   background-color: var(--btn-clear);
@@ -83,7 +85,7 @@ button {
 
 .btn-delete {
   width: 150px;
-  height: 72px;
+  height: 68px;
   color: #3C354F;
   border: 0;
   background-color: var(--btn-delete);
