@@ -3,7 +3,7 @@ let secondOperand = ''
 let currentOperation = null
 let shouldResetScreen = false
 
-const numberButtons = document.querySelectorAll('[data]')
+const numberButtons = document.querySelectorAll('[data-number]')
 const operatorButtons = document.querySelectorAll('[operator]')
 const equalsButton = document.getElementById('equalButton')
 const clearButton = document.getElementById('clearButton')
