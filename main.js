@@ -5,10 +5,10 @@ let shouldResetScreen = false
 
 const numberButtons = document.querySelectorAll('[data]')
 const operatorButtons = document.querySelectorAll('[operator]')
-const equalsButton = document.getElementById('equal')
-const clearButton = document.getElementById('clear')
-const deleteButton = document.getElementById('delete')
-const pointButton = document.getElementById('point')
+const equalsButton = document.getElementById('equalButton')
+const clearButton = document.getElementById('clearButton')
+const deleteButton = document.getElementById('deleteButton')
+const pointButton = document.getElementById('pointButton')
 const lastOperationScreen = document.getElementById('lastOperationScreen')
 const currentOperationScreen = document.getElementById('currentOperationScreen')
 
