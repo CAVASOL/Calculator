@@ -4,10 +4,6 @@
   grid-gap: 16px;
 }
 
-.span-2 {
-  grid-column: span 2;
-}
-
 button {
   color: #3C354F;
   border: none;
@@ -15,6 +11,42 @@ button {
   font-size: 24px;
   cursor: pointer;
   outline: none;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.btn-clear {
+  height: 62px;
+  border-radius: 16px;
+  background-color: var(--btn-clear);
+}
+
+.btn-clear:hover {
+  color: #3C354F;
+  background-color: var(--btn-clear-hover);
+}
+
+.btn-clear:active {
+  color: #3C354F;
+  background-color: var(--btn-clear-active);
+}
+
+.btn-delete {
+  height: 62px;
+  border-radius: 16px;
+  background-color: var(--btn-delete);
+}
+
+.btn-delete:hover {
+  color: #3C354F;
+  background-color: var(--btn-delete-hover);
+}
+
+.btn-delete:active {
+  color: #3C354F;
+  background-color: var(--btn-delete-active);
 }
 
 .btn {
@@ -36,7 +68,8 @@ button {
   background-color: var(--btn-active);
 }
 
-.btn-clear {
+
+/* .btn-clear {
   width: 150px;
   height: 68px;
   color: #3C354F;
@@ -124,4 +157,4 @@ button {
 .btn-delete:before:after:active {
   color: #3C354F;
   background-color: var(--btn-delete-active);
-}
+} */
